@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 7c75e11f4da6ab3478113845230bb156
+guid: 8339fce67ceccf44bb79efd8c7616c67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3763752930381237044
-    second: New Piskel (2)_0
+      213: 2373183141213679312
+    second: New Piskel (6)_0
   - first:
-      213: -445332791505162358
-    second: New Piskel (2)_1
+      213: 2692668872550476181
+    second: New Piskel (6)_1
   - first:
-      213: 109718205546589128
-    second: New Piskel (2)_2
-  - first:
-      213: -8637498362619983186
-    second: New Piskel (2)_3
-  - first:
-      213: -1639124903628890771
-    second: New Piskel (2)_4
-  - first:
-      213: -5794501693467541010
-    second: New Piskel (2)_5
+      213: -7693382868939088697
+    second: New Piskel (6)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 6
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,133 +132,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (2)_0
+      name: New Piskel (6)_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 72
-        width: 9
-        height: 16
+        x: 8
+        y: 34
+        width: 15
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43b85b559598b3430800000000000000
-      internalID: 3763752930381237044
+      spriteID: 0deacf64e7d3fe020800000000000000
+      internalID: 2373183141213679312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_1
+      name: New Piskel (6)_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 72
-        width: 9
-        height: 16
+        x: 45
+        y: 39
+        width: 5
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8f60838f2cd1d9f0800000000000000
-      internalID: -445332791505162358
+      spriteID: 5996f1eb2184e5520800000000000000
+      internalID: 2692668872550476181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_2
+      name: New Piskel (6)_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 40
-        width: 9
-        height: 16
+        x: 7
+        y: 0
+        width: 17
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cb6ffa602cc58100800000000000000
-      internalID: 109718205546589128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel (2)_3
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 40
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaa840ca001712880800000000000000
-      internalID: -8637498362619983186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel (2)_4
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 8
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6d14b8a598a049e0800000000000000
-      internalID: -1639124903628890771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel (2)_5
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 8
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee1c77e096bc59fa0800000000000000
-      internalID: -5794501693467541010
+      spriteID: 7cc5fcfba0d9b3590800000000000000
+      internalID: -7693382868939088697
       vertices: []
       indices: 
       edges: []
@@ -276,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 63c302215e55ab741a85c0e813510fa2
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      New Piskel (2)_0: 3763752930381237044
-      New Piskel (2)_1: -445332791505162358
-      New Piskel (2)_2: 109718205546589128
-      New Piskel (2)_3: -8637498362619983186
-      New Piskel (2)_4: -1639124903628890771
-      New Piskel (2)_5: -5794501693467541010
+      New Piskel (6)_0: 2373183141213679312
+      New Piskel (6)_1: 2692668872550476181
+      New Piskel (6)_2: -7693382868939088697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
