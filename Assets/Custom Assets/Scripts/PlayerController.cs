@@ -3,10 +3,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float horizontal;
+    public int maxJumpValue = 2;
     public float speed = 5f;
     public float jumpPower = 10f;
     public bool isDucking;
     public float downForce;
+    private int timesJumped = 0;
+    
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -17,17 +20,24 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         
+        if (IsGrounded()) 
+        {
+            timesJumped = 0;
+        }
+
         horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && timesJumped < 2)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
-        }   
-
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
+            timesJumped++;
+        }
+        
+       /* if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
+       */
         if (horizontal != 0)
         {
             animator.SetBool("isHussing", true);
@@ -57,7 +67,9 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
+
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
     }
 
 }
