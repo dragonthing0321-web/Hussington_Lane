@@ -3,7 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class LivesController : MonoBehaviour
 {
-    public int currentLives = 4;
+    public static int currentLives = 4;
+   
     public GameObject[] lives;
     public AudioSource playerSounds;
     public AudioClip deathSound;
@@ -11,6 +12,7 @@ public class LivesController : MonoBehaviour
     public GameObject gameOverScreen;
     public bool isGameOver = false;
     public ScoreManager scoreManager;
+    
 
     void Start()
     {
@@ -36,7 +38,8 @@ public class LivesController : MonoBehaviour
                 isGameOver = true;
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
-                
+                AudioController.Instance.StopAudio();
+
             }
         }
         if (collision.gameObject.CompareTag("Enemy"))
@@ -52,6 +55,7 @@ public class LivesController : MonoBehaviour
                 playerSounds.PlayOneShot(deathSound);
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
+                AudioController.Instance.StopAudio();
             }
             else 
             {

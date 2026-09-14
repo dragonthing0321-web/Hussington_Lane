@@ -5,7 +5,7 @@ using System;
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI highScoreText;   
+    public TextMeshProUGUI highScoreText; 
     public float score;
     public LivesController livesController;
     public bool isGameOver = false;

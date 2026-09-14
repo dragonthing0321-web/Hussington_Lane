@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] enemyPrefab;
-    public float spawnRate = 2.0f;
+    public static float spawnRate = 4.5f;
     private float timer = 0.0f;
     public float heightOffset = 10f;
 
@@ -11,6 +11,7 @@ public class SpawnManager : MonoBehaviour
     {
         // Optional initial spawn to preserve original behavior
         spawnEnemy();
+        
     }
 
     void Update()
