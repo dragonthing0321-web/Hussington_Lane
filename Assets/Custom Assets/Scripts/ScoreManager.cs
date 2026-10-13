@@ -25,4 +25,9 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Score: " + score.ToString("0");
         highScoreText.text = "Huss Score: " + score.ToString("0");
     }
+
+    public void AddScore(int pointsToAdd) 
+    {
+        score += pointsToAdd;
+    }
 }

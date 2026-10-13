@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public bool isDucking;
     public float downForce;
     private int timesJumped = 0;
+
     
 
     [SerializeField] private Rigidbody2D rb;
@@ -35,7 +36,8 @@ public class PlayerController : MonoBehaviour
         
        /* if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+            rb.linearVelocity = new Vector
+       2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
        */
         if (horizontal != 0)
@@ -72,4 +74,5 @@ public class PlayerController : MonoBehaviour
 
     }
 
+ 
 }

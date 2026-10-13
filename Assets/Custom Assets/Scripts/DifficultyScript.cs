@@ -7,7 +7,7 @@ public class DifficultyScript : MonoBehaviour
     private MenuController menuController;
     public float difficulty;
     public int lives;
-
+    public float powerUpSpawnTime;
     void Start()
     {
        button = GetComponent<Button>();
@@ -21,6 +21,7 @@ public class DifficultyScript : MonoBehaviour
         Debug.Log(gameObject.name + " was clicked");
         LivesController.currentLives = lives;
         MenuController.previousLives = lives;
+
         menuController.PlayGame(difficulty);
 
        
