@@ -19,13 +19,19 @@ public class MenuController : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("MenuScreen");
-        AudioController.Instance.PlayAudio();
+        if (AudioController.Instance != null)
+        {
+            AudioController.Instance.PlayAudio();
+        }
     }   
 
     public void Replay() 
     {
         LivesController.currentLives = previousLives;
         SceneManager.LoadScene("Gameplay");
-        AudioController.Instance.PlayAudio();
+        if (AudioController.Instance != null)
+        {
+            AudioController.Instance.PlayAudio();
+        }
     }
 }

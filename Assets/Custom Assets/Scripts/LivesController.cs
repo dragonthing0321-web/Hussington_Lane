@@ -38,14 +38,18 @@ public class LivesController : MonoBehaviour
                 isGameOver = true;
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
-                AudioController.Instance.StopAudio();
-
+                if (AudioController.Instance != null)
+                {
+                    AudioController.Instance.StopAudio();
+                }
+               
             }
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
             currentLives--;
-            
+            Destroy(collision.gameObject);
+
             UpdateLivesUI();
             Debug.Log("Lives: " + currentLives);
             if (currentLives <= 0)
@@ -55,7 +59,10 @@ public class LivesController : MonoBehaviour
                 playerSounds.PlayOneShot(deathSound);
                 Destroy(gameObject);
                 gameOverScreen.SetActive(true);
-                AudioController.Instance.StopAudio();
+                if (AudioController.Instance != null)
+                {
+                    AudioController.Instance.StopAudio();
+                }
             }
             else 
             {

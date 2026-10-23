@@ -28,21 +28,11 @@ public class SpawnManager1 : MonoBehaviour
 
     void spawnEnemy()
     {
-        // Validate the array
-        if (enemyPrefab == null || enemyPrefab.Length == 0)
-        {
-            Debug.LogWarning("SpawnManager: enemyPrefab array is null or empty.");
-            return;
-        }
 
         // Select a random prefab from the array
         int index = Random.Range(0, enemyPrefab.Length);
         GameObject prefabToSpawn = enemyPrefab[index];
-        if (prefabToSpawn == null)
-        {
-            Debug.LogWarning($"SpawnManager: enemyPrefab[{index}] is null.");
-            return;
-        }
+      
 
         float lowestPoint = transform.position.y - heightOffset;
         float highestPoint = transform.position.y + heightOffset;

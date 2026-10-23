@@ -1037,6 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyScript
   difficulty: 2.4
   lives: 1
+  powerUpSpawnTime: 0
 --- !u!1 &425897319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1640,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: No Achievements yet
+  m_text: 'No Achievements yet you bum
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2197,7 +2200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.72156864, g: 0.44920844, b: 0.22745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2370,6 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyScript
   difficulty: 2.2
   lives: 2
+  powerUpSpawnTime: 0
 --- !u!1 &831726867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,7 +3279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.8018868, g: 0.7041189, b: 0.25342646, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3829,8 +3833,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278202623
-  m_fontColor: {r: 1, g: 0.18753746, b: 0, a: 1}
+    rgba: 4286231285
+  m_fontColor: {r: 0.9622642, g: 0.69952404, b: 0.4765931, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4181,6 +4185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyScript
   difficulty: 1.7
   lives: 4
+  powerUpSpawnTime: 0
 --- !u!1 &1361644560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5260,6 +5265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyScript
   difficulty: 1.9
   lives: 3
+  powerUpSpawnTime: 0
 --- !u!1 &1719455865
 GameObject:
   m_ObjectHideFlags: 0
@@ -5844,7 +5850,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 9d531f302c54756439ee8b54c604a791, type: 3}
-  m_Color: {r: 0.003025995, g: 0.49937114, b: 0.6415094, a: 1}
+  m_Color: {r: 0.07102172, g: 0.56974053, b: 0.7169812, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6226,7 +6232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6431373, g: 0.56292284, b: 0.14117646, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6287,8 +6293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.3218, y: -139}
-  m_SizeDelta: {x: 717.8284, y: 58.3146}
+  m_AnchoredPosition: {x: -8.3218, y: -152.289}
+  m_SizeDelta: {x: 717.8284, y: 84.8926}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2062276750
 MonoBehaviour:
@@ -6371,7 +6377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6037736, g: 0.54822695, b: 0.39587042, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

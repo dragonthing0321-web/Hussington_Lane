@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2752788773873896060}
   - component: {fileID: 4089850736166734644}
   - component: {fileID: 7019963267761697053}
-  - component: {fileID: 4547073081133255495}
   - component: {fileID: 3660904983003439279}
   m_Layer: 0
   m_Name: Powertablet 1
@@ -116,20 +115,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4547073081133255495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3305832061917794327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f753c4cfc3bdd74a8a1563169eeb48e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PowerUpModifier
-  ScoreManager: {fileID: 0}
-  PlayerController: {fileID: 0}
 --- !u!58 &3660904983003439279
 CircleCollider2D:
   m_ObjectHideFlags: 0
